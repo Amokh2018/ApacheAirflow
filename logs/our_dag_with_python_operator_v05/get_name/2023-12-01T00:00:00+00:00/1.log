@@ -1,0 +1,22 @@
+[2023-12-04 12:24:54,692] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: our_dag_with_python_operator_v05.get_name scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-04 12:24:54,702] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: our_dag_with_python_operator_v05.get_name scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-04 12:24:54,702] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-04 12:24:54,703] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2023-12-04 12:24:54,703] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-04 12:24:54,716] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): get_name> on 2023-12-01 00:00:00+00:00
+[2023-12-04 12:24:54,719] {standard_task_runner.py:52} INFO - Started process 2821 to run task
+[2023-12-04 12:24:54,723] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'our_dag_with_python_operator_v05', 'get_name', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_with_python_operator.py', '--cfg-path', '/tmp/tmpcp9xd5a0', '--error-file', '/tmp/tmprpgd31at']
+[2023-12-04 12:24:54,726] {standard_task_runner.py:77} INFO - Job 32: Subtask get_name
+[2023-12-04 12:24:54,797] {logging_mixin.py:109} INFO - Running <TaskInstance: our_dag_with_python_operator_v05.get_name scheduled__2023-12-01T00:00:00+00:00 [running]> on host 9953e82db65e
+[2023-12-04 12:24:54,876] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ali
+AIRFLOW_CTX_DAG_ID=our_dag_with_python_operator_v05
+AIRFLOW_CTX_TASK_ID=get_name
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-01T00:00:00+00:00
+[2023-12-04 12:24:54,939] {python.py:175} INFO - Done. Returned value was: None
+[2023-12-04 12:24:54,956] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=our_dag_with_python_operator_v05, task_id=get_name, execution_date=20231201T000000, start_date=20231204T122454, end_date=20231204T122454
+[2023-12-04 12:24:55,023] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-12-04 12:24:55,080] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
