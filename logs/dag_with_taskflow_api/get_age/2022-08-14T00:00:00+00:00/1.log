@@ -1,0 +1,22 @@
+[2023-12-04 13:37:18,562] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_taskflow_api.get_age scheduled__2022-08-14T00:00:00+00:00 [queued]>
+[2023-12-04 13:37:18,577] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_taskflow_api.get_age scheduled__2022-08-14T00:00:00+00:00 [queued]>
+[2023-12-04 13:37:18,577] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-04 13:37:18,577] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2023-12-04 13:37:18,577] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-04 13:37:18,601] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 2022-08-14 00:00:00+00:00
+[2023-12-04 13:37:18,607] {standard_task_runner.py:52} INFO - Started process 8729 to run task
+[2023-12-04 13:37:18,611] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag_with_taskflow_api', 'get_age', 'scheduled__2022-08-14T00:00:00+00:00', '--job-id', '743', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_taskflow_api.py', '--cfg-path', '/tmp/tmpk6b0l1qd', '--error-file', '/tmp/tmpy9o85mlm']
+[2023-12-04 13:37:18,612] {standard_task_runner.py:77} INFO - Job 743: Subtask get_age
+[2023-12-04 13:37:18,689] {logging_mixin.py:109} INFO - Running <TaskInstance: dag_with_taskflow_api.get_age scheduled__2022-08-14T00:00:00+00:00 [running]> on host 9953e82db65e
+[2023-12-04 13:37:18,776] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ali
+AIRFLOW_CTX_DAG_ID=dag_with_taskflow_api
+AIRFLOW_CTX_TASK_ID=get_age
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-14T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-14T00:00:00+00:00
+[2023-12-04 13:37:18,777] {python.py:175} INFO - Done. Returned value was: 30
+[2023-12-04 13:37:18,812] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=dag_with_taskflow_api, task_id=get_age, execution_date=20220814T000000, start_date=20231204T133718, end_date=20231204T133718
+[2023-12-04 13:37:18,868] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-12-04 13:37:18,905] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
