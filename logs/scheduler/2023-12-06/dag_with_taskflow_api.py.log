@@ -3057,3 +3057,45 @@
 [2023-12-06 16:30:30,853] {logging_mixin.py:109} INFO - [2023-12-06 16:30:30,853] {dag.py:2398} INFO - Sync 1 DAGs
 [2023-12-06 16:30:30,865] {logging_mixin.py:109} INFO - [2023-12-06 16:30:30,865] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
 [2023-12-06 16:30:30,873] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.191 seconds
+[2023-12-06 16:31:01,418] {processor.py:163} INFO - Started process (PID=41373) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:01,419] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 16:31:01,419] {logging_mixin.py:109} INFO - [2023-12-06 16:31:01,419] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:01,443] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:01,631] {logging_mixin.py:109} INFO - [2023-12-06 16:31:01,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 16:31:01,651] {logging_mixin.py:109} INFO - [2023-12-06 16:31:01,650] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 16:31:01,769] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.353 seconds
+[2023-12-06 16:31:31,873] {processor.py:163} INFO - Started process (PID=41421) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:31,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 16:31:31,874] {logging_mixin.py:109} INFO - [2023-12-06 16:31:31,874] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:31,896] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:31:32,036] {logging_mixin.py:109} INFO - [2023-12-06 16:31:32,036] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 16:31:32,130] {logging_mixin.py:109} INFO - [2023-12-06 16:31:32,130] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 16:31:32,140] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.270 seconds
+[2023-12-06 16:32:02,325] {processor.py:163} INFO - Started process (PID=41478) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:02,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 16:32:02,327] {logging_mixin.py:109} INFO - [2023-12-06 16:32:02,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:02,346] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:02,494] {logging_mixin.py:109} INFO - [2023-12-06 16:32:02,493] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 16:32:02,576] {logging_mixin.py:109} INFO - [2023-12-06 16:32:02,576] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 16:32:02,584] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.261 seconds
+[2023-12-06 16:32:32,794] {processor.py:163} INFO - Started process (PID=41525) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:32,795] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 16:32:32,795] {logging_mixin.py:109} INFO - [2023-12-06 16:32:32,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:32,814] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:32:32,952] {logging_mixin.py:109} INFO - [2023-12-06 16:32:32,952] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 16:32:33,041] {logging_mixin.py:109} INFO - [2023-12-06 16:32:33,041] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 16:32:33,048] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.256 seconds
+[2023-12-06 16:33:03,299] {processor.py:163} INFO - Started process (PID=41582) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:33:03,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 16:33:03,310] {logging_mixin.py:109} INFO - [2023-12-06 16:33:03,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:33:03,342] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 16:33:03,352] {logging_mixin.py:109} INFO - [2023-12-06 16:33:03,352] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 16:33:03,366] {logging_mixin.py:109} INFO - [2023-12-06 16:33:03,366] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 16:33:03,373] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.078 seconds
+[2023-12-06 20:49:19,784] {processor.py:163} INFO - Started process (PID=41622) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 20:49:19,787] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2023-12-06 20:49:19,797] {logging_mixin.py:109} INFO - [2023-12-06 20:49:19,797] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 20:49:19,894] {processor.py:654} INFO - DAG(s) dict_keys(['dag_with_taskflow_api_v02']) retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2023-12-06 20:49:20,745] {logging_mixin.py:109} INFO - [2023-12-06 20:49:20,745] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-12-06 20:49:21,116] {logging_mixin.py:109} INFO - [2023-12-06 20:49:21,116] {dag.py:2937} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2022-01-01T00:00:00+00:00
+[2023-12-06 20:49:21,171] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 1.390 seconds
